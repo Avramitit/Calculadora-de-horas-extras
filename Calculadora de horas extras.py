@@ -6,9 +6,9 @@ def dinero(tarifa, hora):
 
 try:
 	
-	ganancia = int(input("¿cuanto cobras por hora? \n"))
+	ganancia = int(input("¿cuanto cobras por hora? \n> "))
 	
-	tiempo = int(input("¿cuanto tiempo trabajas? \n"))
+	tiempo = int(input("¿cuantas horas trabajas? \n> "))
 	
 	
 	if (tiempo) <= (40):
